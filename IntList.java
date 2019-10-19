@@ -34,25 +34,14 @@ public class IntList {
     
 
     public int get(int number){
-    	// IntList p = this;
-    	// int i = 0;
-    	// while(true ){
-    	// 	if(i < number){
-    	// 		i += 1;
-    	// 		p=p.rest;
-    	// 	}
-    	// 	else{
-     //            return p.first;
-    	// 	}
-    	// }
-
-    	if number == 0{
-    		return first
+    	if(number == 0) {
+    		return first;
     	}
     	else{
-    		return rest.get(i-1)
+    		return rest.get(number-1);
     	}
     }
+
 	public static void main(String[] args) {
 
     IntList L = new IntList(5,null);
