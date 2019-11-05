@@ -91,8 +91,10 @@ def do_step_2(index):
     start_step2.wait()
     V[index] = M[index].A
 
+print("test")
+print("test")
 
-do_step_1(0)
-do_step_2(1)
+# do_step_1(0)
+# do_step_2(1)
 # print(A)
 # print(V)

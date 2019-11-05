@@ -1,5 +1,4 @@
 // the SLList is a IntNode package,the addFirst,getFirst is designed
-
 public class SLList{
 
 	// static means that methods inside the static class can not access any of the members of the enclosing class
