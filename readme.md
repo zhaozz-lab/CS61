@@ -15,3 +15,6 @@ java -cp ;. byog\lab5\RandomWorldDemo.java
 ```
 
 
+
+
+
