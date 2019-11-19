@@ -1,6 +1,5 @@
 public class QuickFindDS implements DisjointSets{
 	private int[] id;
-
     public QuickFindDS(int N){
 		id = new int[N];
 		for (int i = 0;i < N ;i++ ) {
@@ -8,6 +7,7 @@ public class QuickFindDS implements DisjointSets{
 				
 			}
 		}
+
     
     public void connect(int p,int q){
     	int pid = id[p];
@@ -25,4 +25,4 @@ public class QuickFindDS implements DisjointSets{
 
     	return (id[p] == id[q]);
     }
-	}
+}
